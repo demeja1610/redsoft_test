@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Merriweather;
+  line-height: 1;
+}
+
+body{
+  background-color: #f6f3f3;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+img.lazy{
+  transition: .3s;
+  opacity: 0;
+
+  &.loaded{
+    opacity: 1;
+  }
+}
+
+@import './fonts.scss';
+@import './keyframes.scss';
+
+// libs
+@import './libs/toastify.scss';
+
+// components
+@import './components/container.scss';
+@import './components/main-content.scss';
+@import './components/main-header.scss';
+@import './components/main-nav.scss';
+@import './components/logo.scss';
+@import './components/input-text.scss';
+@import './components/btn.scss';
+@import './components/search-form.scss';
+@import './components/catalog.scss';
+@import './components/main-footer.scss';
+@import './components/toastify.scss';
+
+// sections
+@import './sections/catalog-section.scss';
+

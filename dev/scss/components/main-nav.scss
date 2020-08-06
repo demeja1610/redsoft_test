@@ -1,0 +1,32 @@
+.main-nav{
+  display: flex;
+
+  &__logo{
+    margin-right: 48px;
+  }
+
+  &__list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  &__item{
+    
+  }
+
+  &__link{
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    color: #343030;
+    padding: 14px 0;
+    transition: .3s;
+    margin-right: 48px;
+
+    &:hover{
+      color: #776763;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "catalog" : [
+    {
+      "id" : 1,
+      "image" : "/images/1.png",
+      "webp" : "/images/webp/1.webp",
+      "title" : "«Рождение Венеры» Сандро Боттичелли",
+      "price" : "2 000 000 $",
+      "sale" : "1 000 000 $",
+      "sold" : 0
+    },
+    {
+      "id" : 2,
+      "image" : "/images/2.png",
+      "webp" : "/images/webp/2.webp",
+      "title" : "«Тайная вечеря»  Леонардо да Винчи",
+      "price" : "3 000 000 $",
+      "sold" : 0
+    },
+    {
+      "id" : 3,
+      "image" : "/images/3.png",
+      "webp" : "/images/webp/3.webp",
+      "title" : "«Сотворение Адама» Микеланджело",
+      "price" : "6 000 000 $",
+      "sale" : "5 000 000 $",
+      "sold" : 0
+    },
+    {
+      "id" : 4,
+      "image" : "/images/4.png",
+      "webp" : "/images/webp/4.webp",
+      "title" : "«Урок анатомии»  Рембрандт",
+      "price" : "10 000 000 $",
+      "sale" : "0",
+      "sold" : 1
+    }
+  ]
+}

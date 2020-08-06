@@ -1,0 +1,15 @@
+.search-form{
+  display: flex;
+  align-items: center;
+
+  &__input{
+    padding-right: 60px;
+    width: 100px;
+    min-width: 294px;
+  }
+
+  &__btn{
+    height: 100%;
+    width: 122px;
+  }
+}
